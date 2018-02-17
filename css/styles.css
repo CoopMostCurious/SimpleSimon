@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.boxes {
+    width: 100%;
+    text-align: center;
+    background-color: pink;
+    position: absolute;
+    padding: 10px;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto; /* this will center all the boxes inside their parent */
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
+
+.blue {
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 0;
+}
+
+.orange {
+    background-color: orange;
+    position: relative;
+}
+
+.green {
+    background-color: green;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+
